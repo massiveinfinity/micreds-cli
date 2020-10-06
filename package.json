@@ -1,0 +1,21 @@
+{
+  "name": "micreds-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "micreds": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.3",
+    "minimist": "^1.2.5",
+    "node-vault": "^0.9.20",
+    "yargs": "^16.0.3"
+  }
+}
